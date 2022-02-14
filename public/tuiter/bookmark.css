@@ -41,7 +41,7 @@
 
 .wd-main{
     display: grid;
-    grid-template-columns: 8% 92%;
+    grid-template-columns: 5% 95%;
     border-bottom-style: solid;
     border-width: 1px;
     color: rgb(47, 51, 54);
@@ -53,7 +53,7 @@
 }
 
 .wd-main-col2{
-
+    padding-left:12px;
 }
 
 .wd-C{
