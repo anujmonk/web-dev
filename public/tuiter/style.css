@@ -4,8 +4,25 @@
 
 .wd-body-div{
     margin-left: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
 }
 
+.wd-body-padding{
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.wd-body-nav-padding{
+    padding-left:16px;
+}
+
+.wd-body-padding-search{
+    padding-left:16px;
+    padding-right:12px;
+    float:right;
+}
 
 .wd-search{
     display: grid;
@@ -17,7 +34,7 @@
     background-color: #A9A9A9;
     color: white;
     height: 25px;
-    width: 95%;
+    width: 99%;
 }
 
 .wd-setting{
