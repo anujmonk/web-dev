@@ -9,3 +9,42 @@
 .wd-padding-null{
     padding: 0;
 }
+
+
+.wd-input-icons i {
+    position: absolute;
+}
+  
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.wd-input-field {
+    width: 100%;
+    padding: 10px;
+    text-indent: 30px;
+}
+
+.wd-search-icon {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.wd-setting-icon{
+    margin: 12px;
+    font-size: x-large;
+}
+
+.wd-search-bar-width {
+    width:90%;
+}
+
+.wd-more-size{
+    font-size: large;
+}
