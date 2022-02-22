@@ -66,17 +66,18 @@
 
 .wd-container {
     position: relative;
-    text-align: center; 
   }
   
 .wd-bottom-left {
-    position: absolute;
-    bottom: 138px;
-    left: 213px;
     color: white;
     font-size: 30px;
     font-style: bold;
     margin: 0px;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
   
 .wd-font-size-side{
@@ -89,4 +90,25 @@
 
 .wd-padding-left-side{
     padding-left: 10px;
+}
+
+.wd-image{
+    width:100%;
+    margin-left:0px;    
+}
+
+.wd-border{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+
+    border-color: rgb(105,105,105);
+}
+
+.wd-margin-mid{
+    margin-left: 13px;
+}
+
+.wd-search-clr{
+    background-color: rgb(88,88,88);
 }
