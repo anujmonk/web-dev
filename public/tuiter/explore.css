@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+.wd-padding-left{
+    padding-left: 3px;
+}
+
 
 .wd-input-icons i {
     position: absolute;
@@ -55,6 +59,30 @@
 }
 
 .wd-image-icon2{
-    height: 50px;
-    width: 50px;
+    height: 44px;
+    width: 44px;
+    border-radius: 20px;
+}
+
+.wd-container {
+    position: relative;
+    text-align: center; 
+  }
+  
+.wd-bottom-left {
+    position: absolute;
+    bottom: 138px;
+    left: 213px;
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    margin: 0px;
+  }
+  
+.wd-font-size-side{
+    font-size: 14px;;
+}
+
+.wd-margin-more-negative{
+    margin-left: -14px;
 }
