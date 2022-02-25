@@ -16,8 +16,8 @@ const PostSummaryItem = (post) => {
                 
                     <span class="text-white"><strong>${post.title}</strong></span>
                 
-                
-                    <small class="text-muted">${post.tweets} Tweets</small>
+                    
+                    <small class="text-muted">${post.tweets===undefined?'':post.tweets} ${post.tweets===undefined?'':'Tweets'}</small>
                 
             </div>
             <div class="col-1">
