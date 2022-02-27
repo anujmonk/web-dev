@@ -1,6 +1,6 @@
 const PostSummaryItem = (post) => {
     return(
-        `<li class="list-group-item bg-dark">
+        `
         <div class="row">
             <div class="col-11 d-flex flex-column">
                 
@@ -24,7 +24,7 @@ const PostSummaryItem = (post) => {
                 <img class="wd-image-icon wd-margin-mid" src="${post.image}">
             </div>
         </div>
-    </li>`
+    `
     );
 }
 export default PostSummaryItem;
