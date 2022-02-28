@@ -1,6 +1,6 @@
 const PostItem = (post) => {
   return `
-    <div class ="row mt-2 border-bottom">
+    <div class ="row mt-2 wd-border-bottom">
             <div class ="col-1">
                 <img class="rounded-circle img-fluid mx-auto d-block " src="${post.handlerImage}">
             </div>
@@ -17,8 +17,8 @@ const PostItem = (post) => {
                     <span class="text-white">${post.title}</span>
                 </div>
                 
-                <div class="card bg-black border rounded">
-                    <img src="${post.image}" class="card-img-top border-bottom rounded">
+                <div class="card bg-black rounded wd-border-color">
+                    <img src="${post.image}" class="card-img-top wd-border-bottom">
 
                     ${(post.body_head===undefined && post.body_text===undefined) ?``: `<span class=" p-2">
                     <p class="bg-black text-white m-0">${post.body_head}</p>
@@ -28,7 +28,7 @@ const PostItem = (post) => {
 
                     
                 </div>
-                <div class="mt-2">
+                <div class="m-2">
                     <div class="row">
                         <div class="col-3">
                             <i class="fa fa-light fa-comment"></i>
