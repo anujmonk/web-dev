@@ -17,11 +17,12 @@ const PostItem = (post) => {
                     <span class="text-white">${post.title}</span>
                 </div>
                 
-                <div class="card bg-black">
-                    <img src="${post.image}" class="card-img-top border">
-                    <span class="border border-left border-right border-bottom">
-                        <span class="bg-black text-white mt-1">${post.body_head}</span>
-                        <span class="bg-black text-white mt-1">${post.body_text}</span>
+                <div class="card bg-black border rounded">
+                    <img src="${post.image}" class="card-img-top border-bottom rounded">
+                    
+                    <span class=" p-2">
+                        <p class="bg-black text-white m-0">${post.body_head}</p>
+                        <p class="bg-black text-muted m-0">${post.body_text}</p>
                     </span>
                 </div>
                 <div class="mt-2">
