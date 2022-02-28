@@ -19,11 +19,14 @@ const PostItem = (post) => {
                 
                 <div class="card bg-black border rounded">
                     <img src="${post.image}" class="card-img-top border-bottom rounded">
+
+                    ${(post.body_head===undefined && post.body_text===undefined) ?``: `<span class=" p-2">
+                    <p class="bg-black text-white m-0">${post.body_head}</p>
+                    <p class="bg-black text-muted m-0">${post.body_text}</p>
+                </span>`}
+
+
                     
-                    <span class=" p-2">
-                        <p class="bg-black text-white m-0">${post.body_head}</p>
-                        <p class="bg-black text-muted m-0">${post.body_text}</p>
-                    </span>
                 </div>
                 <div class="mt-2">
                     <div class="row">
