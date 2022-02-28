@@ -145,9 +145,10 @@ console.log(string3);
 console.log('Find Index');
 const fourIndex = numberArray1
 	.findIndex(a => a === 4);
+    console.log(fourIndex);
 const string3Index = stringArray1
 	.findIndex(a => a === 'string3');
-
+    console.log(string3Index);
 
 console.log('Filter function');
 console.log(numberArray1);
