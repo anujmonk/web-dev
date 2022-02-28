@@ -57,27 +57,33 @@ if(!false1) {
     console.log('false1');
 }
 
+console.log('Ternary Operators');
 const loggedIn = true;
 const greeting = loggedIn ? 'Welcome!' : 'Please login';
 console.log(greeting)
 
+console.log('Legacy Function');
 function add (a, b) {
     return a + b;
 }
+
 const twoPlusFour = add(2, 4);
 console.log(twoPlusFour);
 
+console.log('New ES6 function');
 const subtract = (a, b) => {
     return a - b;
 }
 const threeMinusOne = subtract(3, 1);
 console.log(threeMinusOne);
 
+
+console.log('Implied Return');
 const multiply = (a, b) => a * b;
 const fourTimesFive = multiply(4, 5);
 console.log(fourTimesFive);
 
-
+console.log('Paranthesis and Parameter');
 const square = a => a * a;
 const plusOne = a => a + 1;
 const twoSquared = square(2);
@@ -99,7 +105,7 @@ let variableArray1 = [
 ];
 console.log(variableArray1);
 
-
+console.log('Array Index and Length');
 const length1 = numberArray1.length;
 console.log(length1);
 const index1 = numberArray1.indexOf(3);
@@ -135,6 +141,13 @@ const four = numberArray1.find(a => a === 4);
 console.log(four);
 const string3 = stringArray1.find(a => a === 'string3');
 console.log(string3);
+
+console.log('Find Index');
+const fourIndex = numberArray1
+	.findIndex(a => a === 4);
+const string3Index = stringArray1
+	.findIndex(a => a === 'string3');
+
 
 console.log('Filter function');
 console.log(numberArray1);
@@ -177,6 +190,7 @@ const bindByClass = $('.bind-by-class');
 console.log('Binding to DOM');
 console.log(bindById);
 console.log(bindByClass);
+
 
 const changeStyle = $('#change-style');
 const changeStyle2 = $('.change-style');
