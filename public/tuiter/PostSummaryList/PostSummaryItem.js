@@ -1,8 +1,9 @@
 const PostSummaryItem = (post) => {
     return(
         `
+        <span class="list-group-item bg-dark">
         <div class="row">
-            <div class="col-11 d-flex flex-column">
+            <div class="col-10 d-flex flex-column">
                 
                     <small class="text-muted">${post.topic}</small>
                 
@@ -20,10 +21,11 @@ const PostSummaryItem = (post) => {
                     <small class="text-muted">${post.tweets===undefined?'':post.tweets} ${post.tweets===undefined?'':'Tweets'}</small>
                 
             </div>
-            <div class="col-1">
+            <div class="col-2">
                 <img class="wd-image-icon wd-margin-mid" src="${post.image}">
             </div>
         </div>
+        </span>
     `
     );
 }
