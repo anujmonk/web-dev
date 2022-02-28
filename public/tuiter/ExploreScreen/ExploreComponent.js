@@ -12,9 +12,9 @@ const ExploreComponent = () => {
            </div>
            
            
-                      <ul class="nav nav-pills d-flex justify-content-around bg-dark">
-                        <li class="nav-item wd-border-link">
-                            <a class="nav-link text-white" href="for-you.html">For You</a>
+                      <ul class="nav nav-pills d-flex py-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="for-you.html">For You</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="trending.html">Trending</a>

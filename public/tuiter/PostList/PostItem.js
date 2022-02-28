@@ -1,6 +1,6 @@
 const PostItem = (post) => {
   return `
-    <div class ="row mt-2">
+    <div class ="row mt-2 border-bottom">
             <div class ="col-1">
                 <img class="rounded-circle img-fluid mx-auto d-block " src="${post.handlerImage}">
             </div>

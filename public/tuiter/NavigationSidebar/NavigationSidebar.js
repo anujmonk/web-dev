@@ -3,10 +3,10 @@ const NavigationSidebar = (active) => {
             <div class="list-group">
                 <a class="list-group-item bg-dark" href="/">
                     <i class="fab fa-twitter text-white"></i></a>
-                    <a href="" class="list-group-item list-group-item-action bg-dark"><i
+                    <a href="../HomeScreen/homescreen.html" class="list-group-item list-group-item-action ${active==="home"?`active`:`bg-dark`}"><i
                             class="fa fa-home text-white"></i><span
                             class="d-none d-xl-inline-block wd-padding-left-side text-white">Home</span></a>
-                    <a href="" class="list-group-item list-group-item-action bg-dark" aria-current="true"><i
+                    <a href="../ExploreScreen/explore.html" class="list-group-item list-group-item-action ${active==="explore"?`active`:`bg-dark`}" aria-current="true"><i
                             class="fa fa-solid fa-hashtag text-white"></i><span
                             class="d-none d-xl-inline-block wd-padding-left-side text-white">Explore</span></a>
                     <a href="" class="list-group-item list-group-item-action bg-dark"><i
