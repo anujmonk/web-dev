@@ -1,0 +1,129 @@
+.wd-margin-bottom-null{
+    margin-bottom: 0%;
+}
+
+.wd-margin-right-null{
+    margin-right: 0;
+}
+
+.wd-padding-null{
+    padding: 0;
+}
+
+.wd-padding-left{
+    padding-left: 3px;
+}
+
+
+.wd-input-icons i {
+    position: absolute;
+}
+  
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 3px;
+}
+  
+.wd-icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.wd-input-field {
+    width: 100%;
+    padding: 10px;
+    text-indent: 30px;
+}
+
+.wd-search-icon {
+    margin: 15px;
+    font-size: 20px;
+    color: #4f5050;
+}
+
+.wd-setting-icon{
+    margin: 12px;
+    font-size: x-large;
+}
+
+.wd-search-bar-width {
+    width:90%;
+}
+
+.wd-more-size{
+    font-size: large;
+}
+
+.wd-image-icon{
+    height: 70px;
+    width: 70px;
+    float: right;
+    border-radius: 25px;
+}
+
+.wd-image-icon2{
+    height: 33px;
+    width: 33px;
+    border-radius: 20px;
+}
+
+.wd-container {
+    position: relative;
+  }
+  
+.wd-bottom-left {
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    margin: 0px;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+.wd-font-size-side{
+    font-size: 14px;;
+}
+
+.wd-margin-more-negative{
+    margin-left: -14px;
+}
+
+.wd-padding-left-side{
+    padding-left: 10px;
+}
+
+.wd-image{
+    width:100%;
+    margin-left:0px;    
+}
+
+.wd-border{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+
+    border-color: rgb(105,105,105);
+}
+
+.wd-margin-mid{
+    margin-left: 13px;
+}
+
+.wd-search-clr{
+    background-color: #1c1f23;
+}
+
+.wd-border-link{
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: rgb(30,144,255);
+}
+
+.wd-mr{
+    margin-right: 5px;
+    margin-left: 4px;
+}
+
