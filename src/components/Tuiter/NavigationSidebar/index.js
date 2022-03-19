@@ -1,7 +1,7 @@
 import React from "react";
 import './navigation.css';
 
-const NavigationSidebar = ({ active = 'explore' }) => {
+const NavigationSidebar = ({ active}) => {
     return ( 
         <>
             <div className="list-group">
