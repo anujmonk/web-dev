@@ -1,5 +1,6 @@
 import PostSummaryItem from "./PostSummaryItem.js";
 import exploreItems from "./exploreItems.json";
+
 const PostSummaryList = () => {
     return(
         <>

@@ -1,15 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './index.css';
 
 import ExploreScreen from './Explore-Screen/ExploreScreen';
 
 const Tuiter = () => {
     return(
-        <>
-        <h1>Tuiter</h1>
-        <Link  to="/hello">Hello</Link> | <Link to="/">Labs</Link>
+        <span>
         <ExploreScreen />
-        </>
+        </span>
     )
 };
 
