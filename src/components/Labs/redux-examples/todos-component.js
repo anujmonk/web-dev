@@ -5,8 +5,11 @@ import { useDispatch,useSelector } from "react-redux";
 const Todos = () => {
  const todos
        = useSelector(state => state.todos);
+
  const [todo, setTodo] = useState({do: '',done: false});
+
  const dispatch = useDispatch();
+ 
  const updateTodoClickHandler = (todo) => {
     const action = {
       type: 'update-todo',

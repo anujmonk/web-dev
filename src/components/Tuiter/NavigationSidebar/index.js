@@ -9,7 +9,7 @@ const NavigationSidebar = ({ active}) => {
             <div className="list-group">
                 <Link className="list-group-item bg-dark" to="/">
                     <i className="fab fa-twitter text-white"></i></Link>
-                <Link to="/tuiter/home" className={`list-group-item bg-dark ${active === 'home' ? 'active' : ''}`}><i
+                <Link to="/tuiter/" className={`list-group-item bg-dark ${active === 'home' ? 'active' : ''}`}><i
                     className="fa fa-home text-white"></i><span
                         className="d-none d-xl-inline-block wd-padding-left-side text-white"> Home</span></Link>
                  <Link to="/tuiter/explore" aria-current="true" className={`list-group-item bg-dark ${active === 'explore' ? 'active' : ''}`}><i     
@@ -28,7 +28,7 @@ const NavigationSidebar = ({ active}) => {
                 className="fa fa-solid fa-list text-white"></i><span
                     className="d-none d-xl-inline-block wd-padding-left-side text-white"> Lists</span>
             </Link>
-            <Link to="" className="list-group-item list-group-item-action bg-dark"><i
+            <Link to="/tuiter/profile" className="list-group-item list-group-item-action bg-dark"><i
                 className="fa fa-solid fa-user text-white"></i>
                 <span className="d-none d-xl-inline-block wd-padding-left-side text-white"> Profile</span></Link>
             <Link to="" className="list-group-item list-group-item-action bg-dark"><span

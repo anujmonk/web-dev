@@ -5,6 +5,7 @@ import {createStore, combineReducers} from "redux";
 import {Provider} from "react-redux";
 import Todos from "./todos-component";
 import todos from "./reducers/todos-reducer";
+
 const reducers = combineReducers({hello, todos})
 const store = createStore(reducers);
 
