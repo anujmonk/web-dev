@@ -21,7 +21,7 @@ const TuitListItem = ({key,tuit}) => {
                     <span className="text-muted"> {tuit.handle} </span>
                     <span className="text-muted">{tuit.time} </span>
                     <i className="fa fa-solid fa-ellipsis float-end mr-2"></i>
-                    <i onClick={() => deleteTuit(tuit)} className="fas fa-remove fa-2x fa-pull-right"></i>
+                    <i onClick={() => deleteTuit(tuit)} className="fas fa-remove fa-pull-right text-white"></i>
                 </div>
                 </div>
                 <div className="row mb-2">

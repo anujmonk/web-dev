@@ -13,8 +13,12 @@ const ProfileScreen = () => {
                         <span className="text-white"><i className="fa fa-arrow-left" aria-hidden="true"></i></span>
                     </div>
                     <div className="col-3">
-                    <span className="text-white"> <strong className="text-white">{profile.firstName} {profile.lastName}</strong></span>
-                    <span className="text-muted"> 5196 Tweets </span>
+                    <div className="row">
+                        <span className="text-white"> <strong className="text-white">{profile.firstName} {profile.lastName}</strong></span>
+                    </div>
+                    <div className="row">
+                        <span className="text-muted"> 5196 Tweets </span>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -34,7 +38,7 @@ const ProfileScreen = () => {
                             <div className="col-3">
                             <i className="fa fa-solid fa-location-arrow"></i><span className="text-muted"> {profile.location} </span>
                             </div>
-                            <div className="col-3">
+                            <div className="col-4">
                                 <i className="fa fa-solid fa-calendar"></i><span className="text-muted"> Born {profile.dateOfBirth} </span>
                             </div>
                             <div className="col-3">
