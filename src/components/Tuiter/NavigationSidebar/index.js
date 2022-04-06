@@ -4,7 +4,7 @@ import '../../../vendors/fontawesome/css/all.min.css'
 import {Link} from "react-router-dom";
 
 const NavigationSidebar = ({ active}) => {
-    console.log(window.location.href)
+    
     return ( 
         <>
             <div className="list-group">
@@ -45,5 +45,6 @@ const NavigationSidebar = ({ active}) => {
             </div>
     </>
     );
+    
 }
 export default NavigationSidebar;
