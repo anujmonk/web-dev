@@ -1,12 +1,14 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
 import Attachment from './attachment';
+import {deleteTuit} from "../actions/tuits-actions.js";
 import TuitStats from './tuit-stats';
 
 const TuitListItem = ({key,tuit}) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})};
+
+    // const deleteTuit = (tuit) => {
+    //     dispatch({type: 'delete-tuit', tuit})};
   return (
       <>
         <div className ="row mt-2 wd-border-bottom">
@@ -21,7 +23,7 @@ const TuitListItem = ({key,tuit}) => {
                     <span className="text-muted"> {tuit.handle} </span>
                     <span className="text-muted">{tuit.time} </span>
                     <i className="fa fa-solid fa-ellipsis float-end mr-2"></i>
-                    <i onClick={() => deleteTuit(tuit)} className="fas fa-remove fa-pull-right text-white"></i>
+                    <i onClick={() => deleteTuit(dispatch,tuit)} className="fas fa-remove fa-pull-right text-white"></i>
                 </div>
                 </div>
                 <div className="row mb-2">
