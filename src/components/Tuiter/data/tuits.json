@@ -1,6 +1,6 @@
 [
     {
-      "_id": "123",
+      "_id": 123,
       "topic": "Web Development",
       "postedBy": {
         "username": "ReactJS"
@@ -16,14 +16,14 @@
       "logo-image": "/images/reactLogo.png",
       "avatar-image": "/images/reactLogo.png",
       "stats": {
-        "comments": 123,
-        "retuits": 234,
-        "likes": 345,
-        "dislikes": 123
+        "comments": "123",
+        "retuits": "234",
+        "likes": "345",
+        "dislikes": "123"
       }
     },
     {
-      "_id": "567",
+      "_id": 567,
       "topic": "Space",
       "postedBy": {
         "username": "SpaceX"
@@ -40,15 +40,15 @@
       "avatar-image": "/images/nodeJSIcon.png",
       "tuits": "120K",
       "stats": {
-        "comments": 123,
-        "retuits": 234,
-        "likes": 345,
-        "dislikes": 123
+        "comments": "123",
+        "retuits": "234",
+        "likes": "345",
+        "dislikes": "123"
 
       }
     },
     {
-      "_id": "234",
+      "_id": 234,
       "topic": "Space",
       "postedBy": {
         "username": "Scott Manley"
@@ -63,14 +63,14 @@
       "avatar-image": "/images/javascript.png",
       "tuits": "123K",
       "stats": {
-        "comments": 123,
-        "retuits": 234,
-        "likes": 345,
-        "dislikes": 123
+        "comments": "123",
+        "retuits": "234",
+        "likes": "345",
+        "dislikes": "123"
       }
     },
     {
-      "_id": "345",
+      "_id": 345,
       "topic": "Web Development",
       "postedBy": {
         "username": "jQuery"
@@ -84,14 +84,14 @@
       "avatar-image": "/images/jquery.png",
       "tuits": "122K",
       "stats": {
-        "comments": 123,
-        "retuits": 234,
-        "likes": 345,
-        "dislikes": 123
+        "comments": "123",
+        "retuits": "234",
+        "likes": "345",
+        "dislikes": "123"
       }
     },
     {
-      "_id": "456",
+      "_id": 456,
       "topic": "Web Development",
       "postedBy": {
         "username": "NodeJS"
@@ -105,10 +105,10 @@
       "avatar-image": "/images/nodeJSIcon.png",
       "tuits": "120K",
       "stats": {
-        "comments": 123,
-        "retuits": 234,
-        "likes": 345,
-        "dislikes": 123
+        "comments": "123",
+        "retuits": "234",
+        "likes": "345",
+        "dislikes": "123"
       }
     }
   ]
